@@ -1,0 +1,6 @@
+@meurh360backend_HostAddress = http://localhost:5039
+
+GET {{meurh360backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
