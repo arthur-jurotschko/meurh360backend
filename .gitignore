@@ -2,3 +2,8 @@ echo "bin/" >> .gitignore
 echo "obj/" >> .gitignore
 echo "appsettings.json" >> .gitignore
 echo "Migrations/" >> .gitignore
+
+.vs/
+bin/
+obj/
+
