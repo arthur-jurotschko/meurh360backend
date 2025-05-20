@@ -6,7 +6,7 @@ namespace meurh360backend.Commands
 {
     public class AddProdutoCommand : IRequest<Produto>
     {
-        public string Nome { get; set; }
+        public string Nome { get; set; } = string.Empty;
         public decimal Preco { get; set; }
         public int QuantidadeEstoque { get; set; }
         public DateTime DataVencimento { get; set; }

@@ -10,7 +10,7 @@ namespace meurh360backend.Models
 
         [Required]
         [StringLength(150)]
-        public string Nome { get; set; }
+        public string Nome { get; set; } = string.Empty;
 
         [Range(0.01, double.MaxValue, ErrorMessage = "O preço deve ser maior que zero.")]
         public decimal Preco { get; set; }
